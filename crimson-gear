@@ -1,0 +1,129 @@
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(228, 59, 93);
+        position: sticky;
+        top: 0;
+    }
+
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(221, 79, 110);
+    }
+
+    #title-div {
+        background-color: crimson;
+        margin: 0px;
+    }
+    #title {
+        font-family:monospace;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 0.55in;
+        padding: 30px;
+    }
+    body {
+        margin: 0px;
+        display: grid;
+    }
+    #shop {
+        background-color: rgb(27, 27, 27);
+        text-align: center;
+    }
+    #suit {
+        cursor: pointer;
+        display: grid;
+    }
+    #suit-image {
+        width: 5in;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 0.5in;
+    }
+    #suit-image2 {
+        width: 3in;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 0.5in;
+    }
+    #item-description {
+        color: whitesmoke;
+        font-family: monospace;
+    }
+    #explanation {
+        color: whitesmoke;
+        font-family: monospace;
+    }
+    #a {
+        color: whitesmoke;
+        font-family: monospace;
+    }
+    #aa {
+        color: rgb(189, 189, 189);
+        font-family: monospace;
+    }
+
+</style>
+
+<head>
+
+    <ul>
+        <li><a href="https://sutragit.github.io/crimson-planet/">Home</a></li>
+        <li><a href="#news">Crimson Gear</a></li>
+        <li><a href="#contact">Crimson Estate</a></li>
+    </ul>
+    
+    <div id="title-div">
+        <h1 id="title">Crimson Equipment</h1> 
+    </div>
+
+</head>
+
+<body>
+
+    <div id="shop">
+
+        <div>
+            <h1 id="a">Shop</h1>
+            <h3 id="aa">Showing all results</h3>
+        </div>
+        
+        <div id="suit">
+            <a href="https://sutragit.github.io/crimson-planet/">
+                <img id="suit-image" src="https://www.bmcanada.ca/wp-content/uploads/2014/05/placeholder-blue.png">
+            </a>
+            <div id="item-description">
+                <h2>Suit Nova HXV2</h2>
+                <h2>$7,200</h2>
+            </div>
+        </div>
+        <div id="suit">
+            <a href="https://sutragit.github.io/crimson-planet/">
+                <img id="suit-image2" src="https://www.slazzer.com/downloads/2ae094a0-9c18-11eb-a328-0200a434c058/No%20mans%20sky%20suit_prev_ui.png">
+            </a>
+            <div id="item-description">
+                <h2>Exosuit NXVS</h2>
+                <h2>$5,430</h2>
+            </div>
+        </div>
+        ""
+        <div>
+            <h2 id="explanation">Salutations! This is the place where you can buy gear and equipment for Mars! We mostly sell spacesuits.</h2>
+        </div>
+    </div>
+
+</body>
